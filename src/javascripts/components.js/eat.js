@@ -6,7 +6,9 @@ const addOrSub = () => {
 
 const unHealthyFood = () => {
   full -= 3;
-
+  if (full <= 0) {
+    full = 0;
+  }
   addOrSub();
 };
 

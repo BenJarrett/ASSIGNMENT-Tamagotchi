@@ -14,7 +14,7 @@ const slightlyFun = () => {
 };
 
 const superFun = () => {
-  fun += 10;
+  fun += 50;
   if (fun > 100) {
     fun = 100;
   }
