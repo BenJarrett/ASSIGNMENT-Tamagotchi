@@ -1,0 +1,19 @@
+import printToDom from './printToDom';
+import { sleepTime, napTime } from '../components.js/sleep';
+
+const energy = 50;
+
+const energyValue = () => {
+  let energyCard = '';
+  energyCard += `<h1>SLEEP</h1>
+  <div id="energy-value" class="text-center">${energy}</div>
+  <button type="button" id="napTime" class="btn btn-light shadow-sm"> <div class="fa fa-bed"</div> Nap Time</button>
+  <button type="button" id="sleepTime" class="btn btn-light shadow-sm"> <div class="fa fa-bed"</div> Sleep Time</button> 
+  `;
+  printToDom('#sleep', energyCard);
+
+  document.querySelector('#napTime').addEventListener('click', sleepTime);
+  document.querySelector('#sleepTime').addEventListener('click', napTime);
+};
+
+export default energyValue;

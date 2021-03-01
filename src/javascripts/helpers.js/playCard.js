@@ -7,8 +7,8 @@ const playValue = () => {
   let playCard = '';
   playCard += `<h1>PLAY</h1>
   <div id="play-fun" class="text-center">${fun}</div>
-  <br/><button type="button" id="addSuperFun" class="btn btn-danger">Super Fun </button>
-  <button type="button" id="addSlightlyFun" class="btn btn-warning">Slightly Fun</button>
+  <br/><button type="button" id="addSuperFun" class="btn btn-light btn btn-outline-primary"> <div class="fa fa-gamepad"</div> Super Fun </button>
+  <button type="button" id="addSlightlyFun" class="btn btn-light btn btn-outline-secondary"> <div class="fa fa-puzzle-piece" </div> Slightly Fun</button>
   `;
   printToDom('#play', playCard);
 
