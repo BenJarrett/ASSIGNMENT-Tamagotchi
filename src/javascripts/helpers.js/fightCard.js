@@ -6,9 +6,11 @@ const strength = 100;
 const fighting = () => {
   let fightCard = '';
   fightCard += `<h1>FIGHT</h1>
+  <div> Morality:
   <div id="run-violence" class="text-center"> <h1>${strength} </h1></div>
-  <br/><button type="button" id="runAway" class="btn btn-light btn btn-outline-info"> <div class="fa fa-hand-peace"</div> Run Away</button>
+  <button type="button" id="runAway" class="btn btn-light btn btn-outline-info"> <div class="fa fa-hand-peace"</div> Run Away</button>
   <button type="button" id="committingViolence" class="btn btn-light btn-outline-danger"> <div class="fa fa-frown"</div> Commit Violence</button>
+  </div>
   `;
   printToDom('#fight', fightCard);
 

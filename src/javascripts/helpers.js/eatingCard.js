@@ -6,9 +6,11 @@ const full = 100;
 const foodChoice = () => {
   let eatingCard = '';
   eatingCard += `<h1>EAT</h1>
-  <div id="food-choice" class="text-center"> <h1>${full}</h1></div>
-  <br/><button type="button" id="addFood" class="btn btn-outline-success shadow-sm btn-light"> <div class="fa fa-heart"</div> Healthy Food</button>
+  <div> Hunger:
+  <div id="food-choice" class="text-center">${full}</div>
+  <button type="button" id="addFood" class="btn btn-outline-success shadow-sm btn-light"> <div class="fa fa-heart"</div> Healthy Food</button>
   <button type="button" id="subtractFood" class="btn btn-outline-danger shadow-sm btn-light"> <div class="fa fa-heart-broken"</div> Unhealthy</button> 
+  </div>
   `;
   printToDom('#eat', eatingCard);
 

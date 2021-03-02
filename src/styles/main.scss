@@ -6,7 +6,8 @@ body {
   font-family: 'Shadows Into Light', cursive;
   background-color: gainsboro;
   color: rgb(17, 26, 80);
-  text-align: center;
+  text-align: center; 
+  font: 100;
   display: flex;
   flex-wrap: wrap;
 };
@@ -32,16 +33,24 @@ body {
 
 #eat {
   background: rgb(117, 131, 173);
+  font-size: 40px;
 }
 
 #play {
   background: slategray;
+  font-size: 40px;
 }
 
 #fight {
   background: palegoldenrod;
+  font-size: 40px;
 }
 
 #sleep {
   background: rgb(209, 178, 209);
+  font-size: 40px;
+}
+
+#addFood, #subtractFood, #addSuperFun, #addSlightlyFun, #runAway, #committingViolence, #napTime, #sleepTime {
+  width: 50%;
 }

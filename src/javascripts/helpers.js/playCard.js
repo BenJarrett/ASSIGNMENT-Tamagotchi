@@ -6,9 +6,11 @@ const fun = 50;
 const playValue = () => {
   let playCard = '';
   playCard += `<h1>PLAY</h1>
+  <div> Happiness:
   <div id="play-fun" class="column"> <h1>${fun}</h1></div>
-  <br/><button type="button" id="addSuperFun" class="btn btn-light btn btn-outline-primary" style="6rem"> <div class="fa fa-gamepad"</div> Super Fun </button>
+  <button type="button" id="addSuperFun" class="btn btn-light btn btn-outline-primary" style="6rem"> <div class="fa fa-gamepad"</div> Super Fun </button>
   <button type="button" id="addSlightlyFun" class="btn btn-light btn btn-outline-secondary"> <div class="fa fa-puzzle-piece" </div> Slightly Fun</button>
+  </div>
   `;
   printToDom('#play', playCard);
 
