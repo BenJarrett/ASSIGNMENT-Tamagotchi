@@ -1,4 +1,5 @@
 let fun = 50;
+const funn = fun;
 
 const addOrSubFun = () => {
   document.querySelector('#play-fun').innerHTML = fun;
@@ -21,4 +22,4 @@ const superFun = () => {
   addOrSubFun();
 };
 
-export { slightlyFun, superFun };
+export { slightlyFun, superFun, funn };

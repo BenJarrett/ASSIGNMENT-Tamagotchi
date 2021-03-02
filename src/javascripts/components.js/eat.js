@@ -1,4 +1,5 @@
 let full = 100;
+const fulll = full;
 
 const addOrSub = () => {
   document.querySelector('#food-choice').innerHTML = full;
@@ -20,4 +21,4 @@ const healthyFood = () => {
   addOrSub();
 };
 
-export { unHealthyFood, healthyFood };
+export { unHealthyFood, healthyFood, fulll };

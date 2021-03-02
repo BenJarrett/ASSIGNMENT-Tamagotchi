@@ -1,4 +1,5 @@
 let energy = 50;
+const energyVar = energy;
 
 const addOrSubEnergy = () => {
   document.querySelector('#energy-value').innerHTML = energy;
@@ -24,4 +25,4 @@ const sleepTime = () => {
   addOrSubEnergy();
 };
 
-export { napTime, sleepTime };
+export { napTime, sleepTime, energyVar };

@@ -1,4 +1,5 @@
 let strength = 100;
+const strengthh = strength;
 
 const addOrSubStrength = () => {
   document.querySelector('#run-violence').innerHTML = strength;
@@ -23,4 +24,4 @@ const committingViolence = () => {
   addOrSubStrength();
 };
 
-export { runAway, committingViolence };
+export { runAway, committingViolence, strengthh };
