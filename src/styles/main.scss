@@ -5,9 +5,43 @@
 body {
   font-family: 'Shadows Into Light', cursive;
   background-color: gainsboro;
-  color: rgb(19, 38, 146);
+  color: rgb(17, 26, 80);
   text-align: center;
-  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+};
+
+#app {
+  display: flex;
+  flex-wrap: wrap; 
+  width: 100%;
+}
+
+.quad {
+  width: 50%;
+  border: solid 1px rgb(12, 15, 58);
+  height: 100%;
   display: flex;
   flex-direction: column;
-};
+  justify-content: space-evenly;
+  padding-top: 45px;
+  padding-bottom: 5px;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+
+#eat {
+  background: rgb(117, 131, 173);
+}
+
+#play {
+  background: slategray;
+}
+
+#fight {
+  background: palegoldenrod;
+}
+
+#sleep {
+  background: rgb(209, 178, 209);
+}
