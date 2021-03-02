@@ -1,0 +1,8 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Shadows+Into+Light&display=swap');
+
+#sleep {
+  background: rgb(209, 178, 209);
+  font-size: 40px;
+}
