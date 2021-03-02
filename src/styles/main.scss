@@ -1,9 +1,42 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Shadows+Into+Light&display=swap');
+
+@import "./eat.css";
+@import "./play.css";
+@import "./fight.css";
+@import "./sleep.css";
+
 
 body {
-  background-color: antiquewhite;
-  color: brown;
-  text-align: center;
-  margin-top: 100px;
+  font-family: 'Shadows Into Light', cursive;
+  background-color: gainsboro;
+  color: rgb(17, 26, 80);
+  text-align: center; 
+  font: 100;
+  display: flex;
+  flex-wrap: wrap;
+};
+
+#app {
+  display: flex;
+  flex-wrap: wrap; 
+  width: 100%;
+}
+
+.quad {
+  width: 50%;
+  border: solid 1px rgb(12, 15, 58);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 45px;
+  padding-bottom: 5px;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+ // Changed Button Length //
+#addFood, #subtractFood, #addSuperFun, #addSlightlyFun, #runAway, #committingViolence, #napTime, #sleepTime {
+  width: 50%;
 }

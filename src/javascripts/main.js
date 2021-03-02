@@ -1,8 +1,14 @@
 import '../styles/main.scss';
+import foodChoice from './helpers.js/eatingCard';
+import fighting from './helpers.js/fightCard';
+import playValue from './helpers.js/playCard';
+import energyValue from './helpers.js/sleepCard';
 
 const init = () => {
-  $('#app').html('<h1>HELLO! You are up and running!</h1>');
-  console.log('YOU ARE UP AND RUNNING!');
+  foodChoice();
+  playValue();
+  fighting();
+  energyValue();
 };
 
 init();
