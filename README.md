@@ -20,6 +20,11 @@ List of features:
 - Four cards are displyed as four quadrants. Each quadrant able to neinteractied with by the user. These four quadrants are Eat, Play, Fight, Sleep.
 
 Screenshots of your projects:
+![First](https://user-images.githubusercontent.com/76926244/109835664-0a0b6180-7c09-11eb-8625-29a624bea5b9.png)
+![Second](https://user-images.githubusercontent.com/76926244/109835678-0d9ee880-7c09-11eb-875f-6328073e3ffc.png)
+![Third](https://user-images.githubusercontent.com/76926244/109835684-10014280-7c09-11eb-93c1-f69dfe6baff7.png)
+![Fourth](https://user-images.githubusercontent.com/76926244/109835691-11cb0600-7c09-11eb-88bb-b663a7a40229.png)
+
 
 
 
