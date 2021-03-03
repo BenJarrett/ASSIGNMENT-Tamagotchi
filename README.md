@@ -8,7 +8,7 @@ Link to your wireframes/prototype:
 No wirefraes were used for this project.
 
 <!-- Link to the deployed project -->
-
+https://bj-tamagotchi.netlify.app/
 
 Link to your project board:
 https://github.com/BenJarrett/ASSIGNMENT-Tamagotchi/projects/1
